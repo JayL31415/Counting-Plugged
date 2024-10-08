@@ -72,7 +72,6 @@ public class Main {
             System.out.println("The most common word is " + findMostCommonWord(filePath) + ".");
         }
     }
-
     private static String findTop5Occurrences(String filePath) throws IOException {
         ArrayList<String> words = cleanString(filePath);
         countWordOccurrences(words);
