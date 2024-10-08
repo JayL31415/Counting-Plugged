@@ -73,6 +73,7 @@ public class Main {
         }
     }
 
+
     private static String findTop5Occurrences(String filePath) throws IOException {
         ArrayList<String> words = cleanString(filePath);
         countWordOccurrences(words);
